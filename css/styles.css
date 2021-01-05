@@ -292,7 +292,7 @@ color: #2196F3;
     margin: 0;
     padding: 0;
     margin-top: 12px;
-    width: 570px;
+   
     display: inline-block;
 
 }
@@ -312,7 +312,8 @@ color: #FFFFFF;
 }
 
 .form-group{
-position: relative;
+box-sizing: border-box;
+position: absolute;
 display: inline-block;
 }
 
@@ -356,11 +357,11 @@ display: inline-block;
 padding: 0;
 margin: 0;
 position: relative;
- left: 66%;
+left: 180%;
 
 text-align: center;
 
-top: 31px;    
+top: 34px;    
 
 vertical-align: middle;
 
@@ -967,6 +968,13 @@ color: #757575;
     margin-bottom: 30px;
     color: #757575;
 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+
   }
 
   .modal__form-policy-text::before {
@@ -976,7 +984,13 @@ color: #757575;
     outline: 1px solid #000;
     content: "";
     margin-right: 10px;
+    
     font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
    
     color: #757575;
 
